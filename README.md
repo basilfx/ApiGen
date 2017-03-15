@@ -1,3 +1,18 @@
+# This is a fork that is fixed on PHP 7.0, because the ApiGen master itself requires PHP 7.1.
+
+To use this repository, add this to your `composer.json`.
+
+```json
+{
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/basilfx/ApiGen"
+        }
+    ]
+}
+```
+
 # Smart and Readable Documentation for your PHP project
 
 [![Build Status](https://img.shields.io/travis/ApiGen/ApiGen/master.svg?style=flat-square)](https://travis-ci.org/ApiGen/ApiGen)
